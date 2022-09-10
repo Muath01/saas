@@ -2,22 +2,40 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* height: 100vh; */
 }
 
 
+.holder{
+    border: 2px solid black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#result{
+    border: 2px solid black;
+    height: 70%;
+    width: 35%;
+
+}
 #value{
     width: 50px;
 }
 
 .container{
-    width: 50%;
+    width: 35%;
+    height: 70%;
     border: 2px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 1em;
+    
 }
 
 
@@ -35,7 +53,17 @@ body{
     align-items: center;
 }
 
+#advert{
+    border: 2px solid rgb(0, 0, 0);
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
 
+input{
+    overflow: hidden;
+}
 #revenue-input{
     
     border: 0.5px solid black;
