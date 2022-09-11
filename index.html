@@ -9,28 +9,47 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="nav">
+        <div id="sitelogo">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/2/20/Adidas_Logo.svg"
+            alt="Adidas Logo"
+          />
+        </div>
+        <div id="links">
+          <ul>
+            <li><a href="buy.html">Buy</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a class="button" href="contact.html">Learn More</a></li>
+          </ul>
+        </div>
+      </div>
+      
     <div class="holder">
 
     <div class="container">
-
         <div id="advert">
-            <p>Advert goes here</p>
+            <p>Enter Your details</p>
         </div>
 
         <div id="container-box">
-            <div id="revenue">£</div>
-            <input class="info" id="revenue-input" type="number" required>
+    
+            <div class="sign" id="revenue">ARR</div>
+            <input class="info" id="revenue-input" type="number" placeholder="Annual Recurring Revenue" required>
             
         </div>
 
         <div id="container-box">
-            <div id="growth">£</div>
-            <input class="info" id="growth-input" type="number" required> 
+    
+            <div class="sign" id="growth">%</div>
+            <input class="info" id="growth-input" type="number" placeholder="growth in percentage" required> 
         </div>
         
         <div id="container-box">
-            <div id="renewal"></div>
-            <input class="info" id="renewal-input" type="number" required> 
+    
+            <div class="sign" id="renewal">%</div>
+            <input class="info" id="renewal-input" type="number" placeholder="renewal rate" required> 
         </div>
 
         <button id="value">Value</button>
@@ -44,9 +63,7 @@
         
     </div>
     <div id="result">
-        <div>f
-
-        </div>
+        <p> According to our SaaS valuation method which consists of the fromula ARR x Growth Rate x 10 x Renewal rate, the valuation of your product is $<span id="results"></span> </p>
     </div>
     </div>
     
